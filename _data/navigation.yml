@@ -1,0 +1,15 @@
+- name: Home
+  link: hero-area
+  active: true
+- name: Products
+  link: products
+  active: false
+- name: Partners
+  link: partners
+  active: false
+- name: Staff
+  link: staff
+  active: false
+- name: Contact
+  link: contact
+  active: false

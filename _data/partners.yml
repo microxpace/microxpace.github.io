@@ -1,0 +1,9 @@
+- name: INRAE
+  link: https://www.inrae.fr/
+  image: inrae.svg
+# - name: INRAE
+#   link: https://www.partner.com
+#   image: jjj.jpg
+- name: Czech Academy of Sciences 
+  link: https://www.avcr.cz/
+  image: czaosc.png

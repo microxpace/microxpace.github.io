@@ -1,0 +1,11 @@
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "es", "fr"]
+exclude_from_localizations: ["/assets"]
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

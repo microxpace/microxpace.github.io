@@ -1,0 +1,62 @@
+<section id="products" class="services-area services-eight">
+  <div class="section-title-five">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="content">
+            <h6>Products</h6>
+            <h2 class="fw-bold">Our Best Products</h2>
+            <p>We deliver the best products powered by microbes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="about-five-content">
+      <div class="about-five-tab">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            {% assign act = true %}
+            {% for product in site.data.products %}
+            <button class="nav-link {% if act %}active{% endif %}" id="nav-{{ product.page }}-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-{{ product.page }}" type="button" role="tab" aria-controls="nav-{{ product.page }}"
+              aria-selected="true">{{
+              product.name }}</button>
+            {% assign act = false %}
+            {% endfor %}
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          {% assign act = true %}
+          {% for product in site.data.products %}
+          <div class="tab-pane fade show{% if act %} active{% endif %}" id="nav-{{ product.page }}" role="tabpanel"
+            aria-labelledby="nav-{{ product.page }}-tab">
+            <h5>
+              <p>{{ product.description }}</p>
+            </h5>
+            <p>
+            <h4>Benefits</h4>
+            <ul>
+              {% for benefit in product.benefits %}
+              <li>
+                <i class="lni lni-checkmark-circle"></i>
+                {{ benefit }}
+              </li>
+              {% endfor %}
+            </ul>
+            </p>
+            {% for feature in product.features %}
+            <p>
+            <h4>{{ feature.name }}</h4>
+            <p>{{ feature.text }}</p>
+            </p>
+            {% endfor %}
+          </div>
+          {% assign act = false %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

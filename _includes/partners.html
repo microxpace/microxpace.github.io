@@ -1,0 +1,37 @@
+<div id="partners" class="brand-area section">
+  <!--======  Start Section Title Five ======-->
+  <div class="section-title-five">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="content">
+            <h6>Meet our Partners</h6>
+            <h2 class="fw-bold">Academic Partners</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!--======  End Section Title Five ======-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 col-12">
+        <div class="clients-logos">
+          {% for partner in site.data.partners %}
+          <div class="single-image">
+            <a href="{{ partner.link }}" target="_blank">
+              <img src="{{ '/assets/images/partners/' | relative_url }}{{ partner.image}}" alt="{{ partner.name }}" />
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

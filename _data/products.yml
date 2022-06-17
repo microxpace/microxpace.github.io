@@ -1,0 +1,45 @@
+- name: AQUAGal
+  page: aquagal
+  description: AQUAGal is a microbiotic product that improves fish growth and specifically strengthens resistance to pathogens.
+  features:
+    - name: Eficacy
+      text: >-
+        AQUAGal is a patented technology (Patent reference n°20305597.5) that exploits the natural immunity against 
+        the glycan α-Gal to protect fish against infectious diseases. 
+        Experimental trials in myxozoan parasites have shown that treatment with AQUAGal reduces parasite numbers 
+        while significantly improve growth and immune parameters in treated fish.
+    - name: Environmental safety
+      text: The product is completely safe and environmentally friendly in effluents.
+    - name: Cost-efficiency
+      text: AQUAGal is an affordable product for large enterprises as well as small entrepreneurs.
+    - name: Application
+      text: >-
+        AQUAGal is available as a bath treatment for eggs and larvae or as an in-feed treatment for juveniles and adults 
+        and is recommended to be used especially in fish before stocking. 
+        For aquaculture and ornamental fish species.
+  benefits: 
+    - Modulates immunity against a broad range of parasites
+    - Anti-inflammatory action
+    - Promotes fish growth
+    
+- name: CHICKGal
+  page: chickgal
+  description: CHICKGal is a microbiotic formulation, which has anti-infective and anti-inflammatory effects.
+  features:
+    - name: Efficacy
+      text: >-
+        CHICKGal is a patented technology (Patent reference n° 20305597.5) that harnesses the power of natural antibodies 
+        against the glycan α-Gal and protects birds against infectious diseases.
+    - name: Environmental safety
+      text: >-
+        CHICKGal's active microbial ingredients are legalized for human consumption. 
+        The product is completely safe and environmentally friendly in effluents.
+    - name: Cost-efficiency
+      text: CHICKGal is an affordable product for large enterprises as well as small entrepreneurs.
+    - name: Application
+      text: CHICKGal is available as a water treatment solution and is recommended to be used in chickens, turkeys, and penguins.
+  benefits:
+    - Modulates immunity and protects against Aspergillus fumigatus infection
+    - Anti-inflammatory action and reduces disease symptoms
+    - Promotes growth
+    - Transgenerational protective effect

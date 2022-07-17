@@ -1,0 +1,48 @@
+<!--====== TEAM STYLE ONE START ======-->
+<div id="staff" class="team-area">
+  <div class="section-title-five" style="margin-bottom: 0px; margin-top: 50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="content">
+            <h6>Meet our Staff</h6>
+            <h2>microXpace is</h2>
+          </div>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!--======  End Section Title Five ======-->
+  <div class="container">
+    <div class="row">
+      {% for member in site.data.staff %}
+      <div class="col-lg-3 col-md-6">
+        <div class="single-team text-center team-style-one">
+          <div class="team-image">
+            <img src="/assets/images/staff/{{  member.image }}" alt="Team" />
+          </div>
+          <div class="team-content">
+            <h4 class="name">{{ member.name }}</h4>
+            <span class="sub-title">{{ member.position }}</span>
+            <ul class="social">
+              {% for social in member.social %}
+              <li>
+                <a href="{{ social.url }}" target="_blank">
+                  <i class="lni {{ social.class }}"></i>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <!-- single team -->
+      </div>
+      {% endfor %}
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</div>
+<!--====== TEAM STYLE ONE ENDS ======-->

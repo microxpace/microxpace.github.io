@@ -1,13 +1,15 @@
 <section id="partners" class="brand-area section">
   <!--======  Start Section Title Five ======-->
-  <div class="section-title-five" style="margin-bottom: 0px; margin-top: 50px;">
+  <div class="section-title-five" style="max-width: none;">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <div class="content">
-            <h6>Meet our Partners</h6>
-            <h2>Academic, Industrial and Incubator Partners</h2>
-          </div>
+        <div class="content">
+          <h6>COMMUNITY</h6>
+          <p>The only way to meet the challenges ahead is removing boundaries that limit human creativity
+            by building communities of people and institutions with shared values and commitments. Bringing
+            innovation to practical use requires a common effort of teams with complementary skills.</p>
+          <p><b>microXpace</b> is proud of its community that include major players in academy and biotech sectors as well as
+            remarkable individuals.</p>
         </div>
       </div>
       <!-- row -->
@@ -15,6 +17,15 @@
     <!-- container -->
   </div>
   <!--======  End Section Title Five ======-->
+  <!-- <div class="section-title-five" style="max-width: none;">
+    <div class="container">
+      <div class="row">
+        <div class="content">
+          <h3>Partners</h3>
+        </div>
+      </div>
+    </div>
+  </div> -->
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 col-12">
@@ -24,9 +35,22 @@
             <a href="{{ partner.link }}" target="_blank">
               <img src="{{ '/assets/images/partners/' | relative_url }}{{ partner.image}}" alt="{{ partner.name }}" />
             </a>
-            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary">{{ partner.type }}</span>
           </div>
           {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-title-five" style="max-width: none; margin-top: 30px;">
+    <div class="container">
+      <div class="row">
+        <div class="content">
+          <h3>Microbiome Research Centre</h3>
+          <h5>The ideal ecosystem to foster new ideas.</h5>
+          <spam>
+            <p>To unlock the knowledge through community building <b>microXpace</b> created the <b>Microbiome Research Centre</b>
+              to reveal untapped microbial innovation contained within a wide range of diverse species.</p>
+          </spam>
         </div>
       </div>
     </div>

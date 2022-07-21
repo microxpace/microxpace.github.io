@@ -1,13 +1,13 @@
 - name: Home
   link: hero-area
   active: true
-- name: Products
+- name: Solutions
   link: products
   active: false
-- name: Partners
+- name: Community
   link: partners
   active: false
-- name: Staff
+- name: About us
   link: staff
   active: false
 - name: Contact

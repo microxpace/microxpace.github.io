@@ -18,3 +18,11 @@
   link: https://www.genopole.com
   image: genopole.png
   type: Incubator
+- name: EnvA
+  link: https://www.vet-alfort.fr/
+  image: enva.svg
+  type: Academic
+- name: CSIC
+  image: csic.png
+  link: https://www.csic.es/en/csic
+  type: Academic

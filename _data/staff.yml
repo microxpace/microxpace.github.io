@@ -1,7 +1,13 @@
+- name: "Dr. Astrid Holzer"
+  position: 
+    - CEO - Chief Executive Officer
+    - Co-founder
+  image: astrid.jpg
+  social:
 - name: "Dr. Alejandro Cabezas-Cruz"
   position: 
     - CSO - Chief Scientific Officer
-    - Founder
+    - Co-founder
   image: alejandro.jpg
   social:
     - type: linkedin
@@ -10,11 +16,6 @@
     - type: twitter
       url: https://twitter.com/ACabezasCruz
       class: lni-twitter-filled
-- name: "Dr. Astrid Holzer"
-  position: 
-    - CEO - Chief Executive Officer
-  image: astrid.jpg
-  social:
 - name: "Dr. Dasiel Obregon"
   position: 
     - CTO - Chief Technology Office

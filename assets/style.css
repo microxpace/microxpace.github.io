@@ -328,7 +328,7 @@ p {
 ===========================*/
 .section-title-five {
   text-align: center;
-  max-width: 550px;
+  /* max-width: 550px; */
   margin: auto;
   margin-bottom: 50px;
   position: relative;

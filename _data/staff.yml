@@ -1,9 +1,7 @@
-- name: "Dr. Astrid Holzer"
-  position: CEO
-  image: astrid.jpg
-  social:
 - name: "Dr. Alejandro Cabezas-Cruz"
-  position: CSO, founder
+  position: 
+    - CSO - Chief Scientific Officer
+    - Founder
   image: alejandro.jpg
   social:
     - type: linkedin
@@ -12,8 +10,15 @@
     - type: twitter
       url: https://twitter.com/ACabezasCruz
       class: lni-twitter-filled
+- name: "Dr. Astrid Holzer"
+  position: 
+    - CEO - Chief Executive Officer
+  image: astrid.jpg
+  social:
 - name: "Dr. Dasiel Obregon"
-  position: COB, co-founder
+  position: 
+    - CTO - Chief Technology Office
+    - Co-founder
   image: dasiel.jpg
   social:
     - type: linkedin
@@ -22,20 +27,22 @@
     - type: twitter
       url: https://twitter.com/Dasiel97729145
       class: lni-twitter-filled
-- name: "Dr. Adnan Hodžić"
-  position: Co-founder
-  image: silhouette.jpg
-  social:
 - name: "Dr. Luis Bermúdez"
-  position: Co-founder
+  position: 
+    - Project Leader
+    - Co-founder
   image: luis.jpg
   social:
 - name: "Dr. Camille Chauvin"
-  position: Co-founder
+  position: 
+    - Executive Assistant and Office Manager
+    - Co-founder
   image: camille.jpg
   social:
 - name: "Dr. Maykel Andres Galloso-Hernández"
-  position: Co-founder
+  position: 
+    - Innovative Business Development
+    - Co-founder
   image: maykel.jpg
   social:
     - type: linkedin
@@ -44,3 +51,8 @@
     - type: twitter
       url: https://twitter.com/guajiroguantana
       class: lni-twitter-filled
+- name: "Dr. Adnan Hodžić"
+  position: 
+    - Co-founder
+  image: silhouette.jpg
+  social:

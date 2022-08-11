@@ -9,3 +9,7 @@ defaults:
       path: ""
     values:
       layout: default
+
+collections:
+  staff:
+    sort_by: order

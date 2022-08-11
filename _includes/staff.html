@@ -1,4 +1,6 @@
-<!--====== TEAM STYLE ONE START ======-->
+---
+---
+<!--====== TEAM START ======-->
 <section id="staff" class="team-area">
   <div class="section-title-five" style="margin-bottom: 0px; margin-top: 50px;">
     <div class="container">
@@ -13,32 +15,59 @@
           </div>
         </div>
       </div>
-      <!-- row -->
     </div>
-    <!-- container -->
   </div>
-  <!--======  End Section Title Five ======-->
+
   <div class="container">
     <div class="row">
-      {% for member in site.data.staff %}
+      {% for member in site.staff %}
       <div class="col-lg-3 col-md-6">
-        <div class="single-team text-center team-style-one">
-          <div class="team-image">
-            <img src="/assets/images/staff/{{  member.image }}" alt="Team" />
+        <a href="#" data-bs-toggle="modal" data-bs-target="#modalBiosketch">
+          <div class="single-team text-center team-style-one">
+            <div class="team-image">
+              <img src="/assets/images/staff/{{  member.image }}" alt="Team" />
+            </div>
+            <div class="team-content">
+              <h4 class="name">{{ member.name }}</h4>
+              {% for position in member.position %}
+              <span class="sub-title">{{ position }}</span>
+              {% endfor %}
+            </div>
           </div>
-          <div class="team-content">
-            <h4 class="name">{{ member.name }}</h4>
-            {% for position in member.position %}
-            <span class="sub-title">{{ position }}</span>
-            {% endfor %}
+          <div class="hidden" style="display: none">
+            {{ member.content | markdownify}}
           </div>
-        </div>
-        <!-- single team -->
+        </a>
       </div>
       {% endfor %}
     </div>
-    <!-- row -->
   </div>
-  <!-- container -->
+
+  <div class="modal fade" id="modalBiosketch" tabindex="-1" aria-labelledby="modalLabelBiosketch" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabelBiosketch"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body"><p class="fs-5">asdasd</p></div>
+      </div>
+    </div>
+  </div>
+
+  <script lang="javascript">
+    var biosketchModal = document.getElementById('modalBiosketch');
+    
+    biosketchModal.addEventListener('show.bs.modal', function (event) {
+      var anchor = event.relatedTarget;
+      
+      var modalTitle = biosketchModal.querySelector('.modal-title');
+      modalTitle.textContent = anchor.querySelector('.name').textContent;
+
+      var modalParagraph = biosketchModal.querySelector('.modal-body p');
+      modalParagraph.textContent = anchor.querySelector('.hidden p').textContent;
+    });
+
+  </script>
 </section>
-<!--====== TEAM STYLE ONE ENDS ======-->
+<!--====== TEAM ENDS ======-->

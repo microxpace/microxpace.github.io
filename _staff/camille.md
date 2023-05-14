@@ -1,6 +1,6 @@
 ---
 shortname: camille
-order: 5
+order: 6
 name: "Dr. Camille Chauvin"
 position: 
   - Executive Assistant and Office Manager

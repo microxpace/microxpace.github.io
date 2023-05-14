@@ -1,6 +1,6 @@
 ---
 shortname: luis
-order: 4
+order: 5
 name: "Dr. Luis Bermúdez"
 position: 
   - Project Leader

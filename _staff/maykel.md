@@ -1,6 +1,6 @@
 ---
 shortname: maykel
-order: 6
+order: 7
 name: "Dr. Maykel Andres Galloso-Hernández"
 position: 
   - CCRO - Chief Clinical Research Officer

@@ -1,6 +1,6 @@
 ---
 shortname: adnan
-order: 7
+order: 8
 name: "Dr. Adnan Hodžić"
 position: 
   - Co-founder

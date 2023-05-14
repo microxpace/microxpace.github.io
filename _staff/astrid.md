@@ -1,9 +1,9 @@
 ---
 shortname: astrid
-order: 1
+order: 3
 name: "Dr. Astrid Holzer"
 position: 
-  - CEO - Chief Executive Officer
+  - CAI - Chief Aquaculture Innovation
   - Co-founder
 image: astrid.jpg
 social:

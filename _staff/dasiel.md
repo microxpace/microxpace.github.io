@@ -1,6 +1,6 @@
 ---
 shortname: dasiel
-order: 3
+order: 4
 name: "Dr. Dasiel Obregon"
 position: 
   - CTO - Chief Technology Officer

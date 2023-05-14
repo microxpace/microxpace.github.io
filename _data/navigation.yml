@@ -7,6 +7,9 @@
 - name: Community
   link: partners
   active: false
+- name: investors
+  link: investors
+  active: false
 - name: About us
   link: staff
   active: false

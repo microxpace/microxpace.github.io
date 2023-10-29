@@ -1,0 +1,53 @@
+:root {
+  --bg-hero: rgb(232, 240, 243);
+  --bg-ideas: rgb(248, 246, 250);
+  --bg-pipelines: rgb(218, 214, 222);
+  --bg-communities: rgb(253, 248, 242);
+  --bg-science: rgb(223, 233, 225);
+}
+
+.bg-hero {
+  background-color: var(--bg-hero) !important;
+}
+.bg-ideas {
+  background-color: var(--bg-ideas) !important;
+}
+.bg-pipelines {
+  background-color: var(--bg-pipelines) !important;
+}
+.bg-communities {
+  background-color: var(--bg-communities) !important;
+}
+.bg-science {
+  background-color: var(--bg-science) !important;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: contain;
+}
+
+.card-title span {
+  display: block;
+}
+
+.title-wrap span {
+  display: block;
+}
+
+.revealed {
+  animation: reveald 3s;
+  -webkit-animation: reveald 3s;
+}
+
+@keyframes reveald {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
